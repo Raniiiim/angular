@@ -1,0 +1,131 @@
+.main-container {
+    display: flex;
+}
+.main-container .side-nav {
+    margin-top: 40px;
+    width: 200px;
+    min-width: 300px;
+    min-height: calc(100vh - 70px);
+    background-color: #0562e8;
+    color: #fff;
+    box-shadow: 5px 5px 5px #939393;
+    text-align: center;
+
+}
+.main-container .side-nav ul li   {
+    list-style: none;
+    text-align: justify;
+    margin-top: 60px;
+    margin-left: 60px;
+    font-weight: 100px;
+    cursor: pointer;
+
+}
+.main-container .main {
+    margin-top: 40px;
+    margin-left: 35px;
+    padding: 60px;
+    background-color: #fff;
+    box-shadow: 5px 5px 5px #939393;
+
+}
+
+.container .header {
+    margin-top: 150px;
+    height: 80px;
+    padding: 20px 30px ;
+  
+    background-color:#fa9416 ;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 5px 5px 5px #939393;
+   
+}
+.container .header .logo{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.container .header .user{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+.container .header .user-image {
+width: 50px;
+height: 50px;
+border-radius: 50%;
+border: 2px solid #fff;
+background-color: rgb(11,107,185);
+margin-left: 20px;
+display: flex;
+align-items: center;
+justify-content: center;
+font-weight: bold;
+
+}
+
+
+.main-title { 
+    display: flex;
+    padding-top: 80px; 
+    padding-left: 50px;
+  
+}
+
+.main-title  p {
+    font-size: 20px;
+    color: #0562e8;
+
+   
+}
+
+.main-cards {
+    display: grid;
+    grid-template-columns:250px 250px 250px ;
+    gap: 40px;
+    margin-top: -250px;
+    margin-left: -450px;
+    padding: 390px;
+
+}
+
+.card {
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-around;
+    padding: 25px;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    border: 1px solid #d2d2d3;
+    border-radius: 10px;
+    box-shadow: 0 6px 7px -4px rgba(0, 0, 0, 0.2);
+}
+.card:first-child{
+    border-left: 10px solid #246dec;
+}
+
+.card:nth-child(2) {
+    border-left: 10px solid #f5b74f;
+}
+
+.card:nth-child(3) {
+    border-left: 10px solid #367952;
+}
+.card > span {
+    font-size: 40px;
+    text-align: center; 
+}
+
+.card-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card .card-inner p {
+    color: #000;
+    font-size: 20px;
+    margin-left:-20px ;
+
+}
